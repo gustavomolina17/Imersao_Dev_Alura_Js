@@ -19,6 +19,6 @@
 # Conteúdos extras:
 
 - <https://developer.mozilla.org/pt-BR/docs/Web/JavaScript>
-- Primeiros passos na programação
-- O que é Javascript?
-- 5 minutos de HTML
+- <https://hipsters.tech/primeiros-passos-na-programacao-a-imersao-dev-hipsters-ponto-tech-243/>
+- <https://www.youtube.com/watch?v=NaVSbnnV75Q>
+- <https://www.youtube.com/watch?v=3oSIqIqzN3M>
