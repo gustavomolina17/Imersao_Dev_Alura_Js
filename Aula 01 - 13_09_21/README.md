@@ -18,7 +18,7 @@
 
 # Conteúdos extras:
 
-- JavaScript segundo a documentação
+- <JavaScript segundo a documentação>
 - Primeiros passos na programação
 - O que é Javascript?
 - 5 minutos de HTML
