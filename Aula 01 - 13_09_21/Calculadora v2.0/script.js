@@ -31,17 +31,17 @@ function calculaMedia() {
   var calculaMedia = somaNota / 4;
 
   //Variável para corrigir valores decimais.
-  var notaFinal = calculaMedia.toFixed(1);
+  var notaFinal = calculaMedia.toFixed(2);
 
   console.log(notaFinal);
 
   //Função responsável por conferir se o aluno está aprovado ou não.
 
   if (notaFinal >= 5) {
-    var mediaFinal = `Parabéns, você foi aprovado, ${nome.value}, sua média final foi ${notaFinal}`;
+    var mediaFinal = `Parabéns,${nome.value}, aprovado com ${notaFinal}`;
     document.querySelector("#mediaFinal").innerHTML = mediaFinal;
   } else {
-    var mediaFinal = `Infelizmente você não foi aprovado ${nome.value}, sua média   final foi ${notaFinal}`;
+    var mediaFinal = `Reprovado, com ${notaFinal}`;
     document.querySelector("#mediaFinal").innerHTML = mediaFinal;
   }
 }
