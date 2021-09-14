@@ -18,7 +18,7 @@
 
 # Conteúdos extras:
 
-- <JavaScript segundo a documentação>
+- <https://developer.mozilla.org/pt-BR/docs/Web/JavaScript>
 - Primeiros passos na programação
 - O que é Javascript?
 - 5 minutos de HTML
