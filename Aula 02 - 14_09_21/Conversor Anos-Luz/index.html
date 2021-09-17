@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Imersão Dev Alura - Aula 02</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Conversor de distância</h1>
+      <p class="page-subtitle">
+        Descubra qual a distância em km para chegar ao planeta pretendido
+      </p>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo"
+        alt=""
+      /><br /><br />
+      <label for="moeda">Insira o valor em anos luz</label><br />
+      <input
+        type="number"
+        id="valor"
+        size="2"
+        placeholder="Valor Anos-Luz..."
+      /><br />
+      <button type="submit" onclick="Converter()">Converter</button>
+      <h2 id="valorConvertido"></h2>
+    </div>
+    <a href="https://github.com/gustavomolina17" target="_blank">
+      <img src="../github.png" alt="" class="github-logo" />
+    </a>
+    <script src="./script.js"></script>
+  </body>
+</html>
