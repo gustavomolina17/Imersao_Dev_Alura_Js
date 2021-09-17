@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 200px;
+  background-image: url("https://1.bp.blogspot.com/-yWHfWQ7WyPo/XumBx6sizdI/AAAAAAAAT0s/Mv1ZxakH9zU0IdUUec_INdWuSoRu-OJzACK4BGAsYHg/w640-h360/black-wallpaper-pc-heroscreen.cc-4k.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: white;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.img-title {
+  width: 40px;
+  position: relative;
+  top: 15px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #32cd32;
+  background-color: black;
+  border-color: #32cd32;
+}
+
+label {
+  color: #32cd32;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  border-color: #008000;
+  background: #006400;
+  color: white;
+  font-family: "Zapf Chancery", cursive;
+  font-size: 18px;
+}
+
+h2 {
+  color: #32cd32;
+  font-size: 40px;
+  font-family: "Lucidatypewriter", monospace;
+}
