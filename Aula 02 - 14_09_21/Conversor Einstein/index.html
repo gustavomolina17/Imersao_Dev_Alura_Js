@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Imersão Dev Alura - Aula 02</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">CONVERSOR</h1>
+      <p class="page-subtitle">Descubra os valores</p>
+      <img
+        src="https://p4.wallpaperbetter.com/wallpaper/492/535/765/energy-physics-einstein-e-mc-2-wallpaper-preview.jpg"
+        class="page-logo"
+        alt=""
+      /><br /><br />
+      <label for="peso">Insira o peso em gramas</label><br />
+      <input type="number" id="peso" size="2" /><br />
+      <button type="submit" onclick="ConverterPeso()">Converter em Kg</button>
+      <h2 id="pesoConvertido"></h2>
+
+      <label for="moeda">Insira o valor em Dolar</label><br />
+      <input type="number" id="valor" size="2" /><br />
+      <button type="submit" onclick="ConverterMoeda()">Converter em R$</button>
+      <h2 id="moedaConvertida"></h2>
+
+      <label for="distancia">Insira o valor em Km</label><br />
+      <input type="number" id="distancia" size="2" /><br />
+      <button type="submit" onclick="ConverterDistancia()">
+        Converter em m
+      </button>
+      <h2 id="distanciaConvertida"></h2>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://conteudo.imguol.com.br/c/noticias/3e/2021/05/12/retrato-do-fisico-alemao-albert-einstein-1620842825097_v2_450x337.jpg"
+        alt=""
+        class="alura-logo"
+    /></a>
+    <script src="./script.js"></script>
+  </body>
+</html>
