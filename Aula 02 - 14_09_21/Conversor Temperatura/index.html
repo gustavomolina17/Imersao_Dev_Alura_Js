@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Imersão Dev Alura - Aula 02</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Conversor de temperatura Celsius</h1>
+      <p class="page-subtitle">Descubra os valores em Fahrenheit e Kelvin</p>
+      <img
+        src="https://cdn.pixabay.com/photo/2017/03/27/09/40/think-2177839_960_720.png"
+        class="page-logo"
+        alt=""
+      /><br /><br />
+      <label for="moeda">Insira o valor em Celsius</label><br />
+      <input type="number" id="valor" size="30" /><br />
+      <button type="submit" onclick="Converter()">Converter</button>
+      <h2 id="valorConvertidoKelvin"></h2>
+      <h2 id="valorConvertidoFarhrenheit"></h2>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
