@@ -1,20 +1,18 @@
-# Aula 01 - 13/09/2021: Variáveis, Operações e Média
+# Aula 02 - 14/09/2021: Conversor de Moedas
 
 # Conteúdo detalhado desta aula
 
-- Criar uma conta no CodePen;
-- Entender as diferenças entre HTML, CSS e JavaScript;
-- Variáveis, manipulação dos valores armazenados e a memória do computador;
-- Tipos de variáveis, como texto e inteiro;
-- Fixando a quantidade de casas decimais com a função toFixed();
+- Interagir com usuário para receber os preços a serem convertidos;
+- Criar a lógica para saber como converter;
+- Utilizar funções que interagem com a tela;
+- Exibir o resultado na tela com innerHTML;
 
 # Desafios desta aula!
 
-- Dependendo da nota, mostrar se a aluna ou aluno foi aprovada(o) ou não.
-- Alterar o fundo da tela da maneira que achar mais legal.
-- Imprimir na própria página o resultado, ao invés do console.
-- Criar um conversor de temperaturas entre Farenheit e Celsius.
-- Colocar a conta inteira da média em apenas uma linha.
+- Adicionar outras moedas para converter.
+- Conversor de quilômetros para anos luz e verificar o tempo que demora para ir de uma estrela para outra.
+- Conversor de temperaturas entre farenheit, kelvin e celsius.
+- Adicionar uma linha ao projeto desenvolvido para que apareça o valor em bitcoin.
 
 # Conteúdos extras:
 
@@ -25,4 +23,4 @@
 
 # Link da Aula:
 
-- https://imersao.dev/aulas/aula01-variaveis-operacoes-media
+- https://imersao.dev/aulas/aula02-conversor-moedas
