@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 570px;
+  background-image: url("https://image.flaticon.com/icons/png/512/201/201635.png");
+  background-color: #01446b;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.alura-logo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 2px;
+  padding-top: 60px;
+  right: 20px;
+}
+
+.github-logo {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 2px;
+  padding-top: 60px;
+  right: 70px;
+}
+
+.inputs {
+  font-family: "Roboto Mono", monospace;
+  max-width: 70px;
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+
+.botao {
+  background-color: lightgray;
+  font-family: "Roboto Mono", monospace;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.botao:hover {
+  background-color: gray;
+}
+
+.resposta {
+  font-family: "Roboto Mono", monospace;
+  padding: 80px;
+}
+
+.aprovado {
+  background-color: #9fc602;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: black;
+  padding: 80px;
+}
+
+.reprovado {
+  background-color: #e83b00;
+  font-family: "Remoto Mono", monospace;
+  font-weight: bold;
+  color: black;
+  padding: 80px;
+}

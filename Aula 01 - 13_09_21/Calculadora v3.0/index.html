@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <title>Calculadora de Média - 3.0</title>
+      <p class="page-subtitle">
+        Descubra qual a sua média e veja se foi aprovado!
+      </p>
+      <p>
+        <input class="inputs" type="number" id="nota1" placeholder="1ª Nota" />
+        <input class="inputs" type="number" id="nota2" placeholder="2ª Nota" />
+        <input class="inputs" type="number" id="nota3" placeholder="3ª Nota" />
+        <input class="inputs" type="number" id="nota4" placeholder="4ª Nota" />
+      </p>
+
+      <p>
+        <input
+          class="botao"
+          type="button"
+          id="botao"
+          onclick="calcular()"
+          value="Calcular média"
+        />
+      </p>
+
+      <p class="resposta" id="notaFinal"></p>
+    </div>
+    <a
+      href="https://www.linkedin.com/in/gustavo-molina-a2798418/"
+      target="_blank"
+    >
+      <img src="../linkedin.svg" alt="" class="alura-logo" />
+    </a>
+    <a href="https://github.com/gustavomolina17" target="_blank">
+      <img src="../github.png" alt="" class="github-logo" />
+    </a>
+    <script src="./script.js"></script>
+  </body>
+</html>
