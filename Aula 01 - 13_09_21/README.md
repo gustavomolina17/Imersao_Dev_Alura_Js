@@ -22,3 +22,7 @@
 - <https://hipsters.tech/primeiros-passos-na-programacao-a-imersao-dev-hipsters-ponto-tech-243/>
 - <https://www.youtube.com/watch?v=NaVSbnnV75Q>
 - <https://www.youtube.com/watch?v=3oSIqIqzN3M>
+
+# Link da Aula:
+
+- https://imersao.dev/aulas/aula01-variaveis-operacoes-media
