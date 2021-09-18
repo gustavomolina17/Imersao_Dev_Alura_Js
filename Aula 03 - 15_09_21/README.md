@@ -1,26 +1,25 @@
-# Aula 02 - 14/09/2021: Conversor de Moedas
+# Aula 03 - 15/09/2021: Mentalista
 
 # Conteúdo detalhado desta aula
 
-- Interagir com usuário para receber os preços a serem convertidos;
-- Criar a lógica para saber como converter;
-- Utilizar funções que interagem com a tela;
-- Exibir o resultado na tela com innerHTML;
+- Realizar o fork do projeto com template inicial;
+- Fazer testes utilizando console.log();
+- Criar a lógica por trás do "chute" com if, else if e else;
+- Utilizar a função Math.random() do JavaScript para gerar números aleatórios;
 
 # Desafios desta aula!
 
-- Adicionar outras moedas para converter.
-- Conversor de quilômetros para anos luz e verificar o tempo que demora para ir de uma estrela para outra.
-- Conversor de temperaturas entre farenheit, kelvin e celsius.
-- Adicionar uma linha ao projeto desenvolvido para que apareça o valor em bitcoin.
+- Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final.
+- Quando a pessoa errar, deixar na mensagem se o número chutado é maior ou menor que o número secreto.
+- Pesquisar e aprender a diferença entre == e ===.
 
 # Conteúdos extras:
 
-- <https://developer.mozilla.org/pt-BR/docs/Web/JavaScript>
-- <https://hipsters.tech/primeiros-passos-na-programacao-a-imersao-dev-hipsters-ponto-tech-243/>
-- <https://www.youtube.com/watch?v=NaVSbnnV75Q>
-- <https://www.youtube.com/watch?v=3oSIqIqzN3M>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality>
+- <https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random/>
+- <https://www.alura.com.br/artigos/operadores-matematicos-em-javascript>
+
 
 # Link da Aula:
 
-- https://imersao.dev/aulas/aula02-conversor-moedas
+- https://imersao.dev/aulas/aula03-mentalista
