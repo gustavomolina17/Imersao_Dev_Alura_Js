@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Imersão Dev - Aula 05</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<div>
+    <div class="container">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <h1 class="page-title">
+          <img src="https://www.ag-verleih.de/site/assets/files/1072/gmfilms.jpg" alt="netflix-font" height="50" width="300"/>
+        </h1>
+      </div>
+      
+      <div>
+        <form onsubmit="event.preventDefault();" id="caixa-formulario">
+          <div class="form">
+            <label for="nome-filme"></label>
+            <input type="text" id="nome-filme" placeholder="Adicione o nome do seu filme favorito"><br>
+      
+            <label for="imagem-filme"></label>
+            <input type="text" id="imagem-filme" placeholder="Adicione a URL do seu filme favorito">
+      
+            <select id="select-categoria" required>
+              <option value selected disabled>Selecione a categoria</option>
+              <option value="comedia">Comédia</option>
+              <option value="terror">Terror</option>
+            </select>
+      
+            <br><br><button type="submit" onclick="enviar()"> Enviar</button>
+            <button type="submit" onclick="remover()"> Remover</button>
+            <p id="mensagemErro"></p>
+          </div>
+        </form>
+      
+      </div>
+      <hr color="#da1e26">
+      </hr>
+      <h3> COMÉDIA </h3>
+      <div id="caixaFilmesComedia" class="caixaFilmes">
+      
+      </div>
+      <hr color="#da1e26">
+      </hr>
+      <h3> TERROR </h3>
+      <div id="caixaFilmesTerror" class="caixaFilmes">
+      
+      </div>
+      <hr color="#da1e26">
+      </hr>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+
+    <script src="app.js"></script>
+  </body>
+</html>
