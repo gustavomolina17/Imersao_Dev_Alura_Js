@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Imersão Dev - Aula 05</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<div>
+  <section class="title">
+    <h1>Conversor de Moedas</h1>
+  </section>
+
+  <section clas="container">
+    <div class="elementoImput">
+      <label>Converter de:</label>
+      <br />
+      <select id="converter-de">
+        <option>Dólar</option>
+        <option>Euro</option>
+        <option>Real</option>
+        <option>Bitcoin</option>
+      </select>
+      <br />
+      <input type="number" id="valor-de" />
+      <br />
+      <button onClick="Converter()">Converter</button>
+    </div>
+
+    <div class="elementoImput">
+      <label>Para:</label>
+      <br />
+      <select id="converter-para">
+        <option>Dólar</option>
+        <option>Euro</option>
+        <option>Real</option>
+        <option>Bitcoin</option>
+      </select>
+      <br />
+      <input type="number" id="valor-para" value="" />
+    </div>
+  </section>
+</div>
+<script src="app.js"></script>
+  </body>
+</html>
