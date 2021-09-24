@@ -1,22 +1,22 @@
-# Aula 05 - 17/09/2021: FUNÇÕES NO ALURAFLIX
+# Aula 08 - 22/09/2021: SUPERTRUNFO - CARTAS DO JOGO
 
 # Conteúdo detalhado desta aula
 
-- Sintaxe e criação de funções no JavaScript;
-- Integrando funções criadas no JavaScript com o HTML que está sendo exibido na tela;
-- Condicionando a execução (ou "chamada") de uma função a um clique em um botão na tela;
-- Usando o JavaScript para acessar o que está sendo exibido na tela e pegar valores digitados pelo usuário com getElementById() e .value;
-- Passar informações que as funções precisam para funcionar, através dos parâmetros;
-- Utilizar o .endsWith() para verificar se um texto termina com determinados caracteres;
-- Ver mais um exemplo de reatribuição de variável para "limpar" o texto do campo com "".
+- Adicionando o campo imagem nos objetos com o caminho da imagem;
+- Criar uma função que exibe a carta do jogador após o sorteio das cartas;
+- Adicionar a moldura da carta;
+- Escrever o resultado na tela após o duelo das cartas informando se o jogador venceu ou perdeu;
+- Criar uma função que exibe a carta da máquina;
+- Exibir os atributos e pontos da carta da máquina.
+
 
 # Desafios desta aula!
 
-- Criar um botão para remover um filme na tela
-- Além de colocar a imagem do filme, também adicionar o nome por meio de outro input
-- Guardar todos os filmes adicionados em uma lista/array e percorrer essa lista toda vez que quiser imprimir ou remover o filme
-- Conversor de moedas: criar funções para cada tipo de conversão e chamá-las dependendo do que você quiser fazer, podendo colocar inputs ou botões e quando clicar chamar cada função converteDolar(), converteReal(), converteEuro() e converteBitcoin(), por exemplo
+- Criar de fato um baralho, com várias outras cartas.
+- Desenvolver um sistema em que a cada carta que um jogador ganhe, ele fique com a carta do oponente e vice versa.
+- Transformar as funções exibirCartaMaquina() e exibirCartaJogador() em apenas uma, chamada exibirCarta(), utilizando para isso a passagem de parâmetros.
+- Utilizar seus personagens e jogos preferidos nesse projeto.
 
 # Link da Aula:
 
-- https://imersao.dev/aulas/aula05-funcoes-aluraflix
+- https://imersao.dev/aulas/aula08-supertrunfo-cartas
