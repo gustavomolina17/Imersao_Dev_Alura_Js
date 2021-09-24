@@ -1,22 +1,23 @@
-# Aula 05 - 17/09/2021: FUNÇÕES NO ALURAFLIX
+# Aula 06 - 20/09/2021: OBJETOS E TABELAS DE CLASSIFICAÇÃO
 
 # Conteúdo detalhado desta aula
 
-- Sintaxe e criação de funções no JavaScript;
-- Integrando funções criadas no JavaScript com o HTML que está sendo exibido na tela;
-- Condicionando a execução (ou "chamada") de uma função a um clique em um botão na tela;
-- Usando o JavaScript para acessar o que está sendo exibido na tela e pegar valores digitados pelo usuário com getElementById() e .value;
-- Passar informações que as funções precisam para funcionar, através dos parâmetros;
-- Utilizar o .endsWith() para verificar se um texto termina com determinados caracteres;
-- Ver mais um exemplo de reatribuição de variável para "limpar" o texto do campo com "".
+- Remover o código estático do HTML;
+- Criar um objeto no Javascript para cada jogador;
+- Criar uma função que receba um objeto como parâmetro para calcular os pontos;
+- Exibir o objeto na página HTML;
+- Criar uma função para adicionar vitória, outra para adicionar empate e uma última para adicionar derrota;
+- Recalcular os pontos quando vitória ou empate for adicionado.
 
 # Desafios desta aula!
 
-- Criar um botão para remover um filme na tela
-- Além de colocar a imagem do filme, também adicionar o nome por meio de outro input
-- Guardar todos os filmes adicionados em uma lista/array e percorrer essa lista toda vez que quiser imprimir ou remover o filme
-- Conversor de moedas: criar funções para cada tipo de conversão e chamá-las dependendo do que você quiser fazer, podendo colocar inputs ou botões e quando clicar chamar cada função converteDolar(), converteReal(), converteEuro() e converteBitcoin(), por exemplo
+- Fazer a lógica de quando houver um empate, obrigatóriamente deveria já ajustar como empate para os demais jogadores.
+- Validar se todos os pontos estão fazendo sentido, tanto o número de empates, quanto derrotas e vitórias com os demais jogadores (impossível haver mais vitórias que derrotas, por exemplo).
+- Adicionar a imagem de cada jogador.
+- Criar um botão para zerar todos os pontos.
+- Criar um botão e inputs (campos de texto) para adicionar novos jogadores, com seus respectivos dados.
+- Utilizar seu jogo preferido para se basear na pontuação da sua tabela de classificação.
 
 # Link da Aula:
 
-- https://imersao.dev/aulas/aula05-funcoes-aluraflix
+- https://imersao.dev/aulas/aula06-objetos-tabelas-classificacao
