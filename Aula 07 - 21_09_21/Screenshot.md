@@ -1,22 +1,5 @@
-# Aula 08 - 22/09/2021: SUPERTRUNFO - CARTAS DO JOGO
+# SUPERTRUNFO 
 
-# Conteúdo detalhado desta aula
+- A versão final está em https://github.com/gustavomolina17/Imersao_Dev_Alura_Js/tree/main/Aula%2008%20-%2022_09_21
 
-- Adicionando o campo imagem nos objetos com o caminho da imagem;
-- Criar uma função que exibe a carta do jogador após o sorteio das cartas;
-- Adicionar a moldura da carta;
-- Escrever o resultado na tela após o duelo das cartas informando se o jogador venceu ou perdeu;
-- Criar uma função que exibe a carta da máquina;
-- Exibir os atributos e pontos da carta da máquina.
-
-
-# Desafios desta aula!
-
-- Criar de fato um baralho, com várias outras cartas.
-- Desenvolver um sistema em que a cada carta que um jogador ganhe, ele fique com a carta do oponente e vice versa.
-- Transformar as funções exibirCartaMaquina() e exibirCartaJogador() em apenas uma, chamada exibirCarta(), utilizando para isso a passagem de parâmetros.
-- Utilizar seus personagens e jogos preferidos nesse projeto.
-
-# Link da Aula:
-
-- https://imersao.dev/aulas/aula08-supertrunfo-cartas
+![1](https://user-images.githubusercontent.com/70485830/134707726-b3661b3e-fd69-41d0-b6cc-798c62cfa9eb.PNG)
